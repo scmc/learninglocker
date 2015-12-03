@@ -33,7 +33,8 @@ class ConsistentForeignKeyNames extends Migration {
         $new_key => $modifier($old_value)
       ]
     ], [
-      'multiple' => true
+      'multiple' => true,
+      'socketTimeoutMS' => -1
     ]);
   }
 
